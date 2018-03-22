@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js globall add live-server
+
+PATH: 
+  C:\Users\dmytriy.naida\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\mingw64\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\local\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\mingw64\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\bin;C:\Users\dmytriy.naida\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Skype\Phone;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Users\dmytriy.naida\AppData\Local\Microsoft\WindowsApps;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\cmd;C:\Users\dmytriy.naida\AppData\Local\atom\bin;C:\Users\dmytriy.naida\AppData\Roaming\npm;C:\Users\dmytriy.naida\AppData\Local\Yarn\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\bin\vendor_perl;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "C:\\Users\\dmytriy.naida\\Documents\\react-course-projects\\indecision-app"
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at <anonymous>
