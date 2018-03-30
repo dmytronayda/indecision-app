@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js globall add live-server
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add babel-preset-react@6.24.1 bable-preset-env@1.5.2
 
 PATH: 
   C:\Users\dmytriy.naida\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\mingw64\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\local\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\mingw64\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\bin;C:\Users\dmytriy.naida\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Skype\Phone;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Users\dmytriy.naida\AppData\Local\Microsoft\WindowsApps;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\cmd;C:\Users\dmytriy.naida\AppData\Local\atom\bin;C:\Users\dmytriy.naida\AppData\Roaming\npm;C:\Users\dmytriy.naida\AppData\Local\Yarn\bin;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\bin\vendor_perl;C:\Users\dmytriy.naida\AppData\Local\Programs\Git\usr\bin\core_perl
@@ -14,7 +14,14 @@ Platform:
   win32 x64
 
 npm manifest: 
-  No manifest
+  {
+    "name": "indecision-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/dmytronayda/indecision-app.git",
+    "author": "Dmytro Nayda <dima.nayda.1993@gmail.com>",
+    "license": "MIT"
+  }
 
 yarn manifest: 
   No manifest
@@ -23,10 +30,11 @@ Lockfile:
   No lockfile
 
 Trace: 
-  Error: Couldn't find a package.json file in "C:\\Users\\dmytriy.naida\\Documents\\react-course-projects\\indecision-app"
+  Error: Couldn't find package "bable-preset-env" on the "npm" registry.
       at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
-      at C:\Program Files (x86)\Yarn\lib\cli.js:40048:15
+      at NpmResolver.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:51625:15)
       at Generator.next (<anonymous>)
       at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
       at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
       at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)
